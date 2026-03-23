@@ -13,7 +13,7 @@ let { num1, num2, operation } = await inquirer.prompt([{
         name: "operation",
         type: "list",
         choices: ["add", "sub", "mul", "div"],
-        message: "Enter first number1:",
+        message: "Enter first number:",
     },
 ]);
 //console.log(answers);
